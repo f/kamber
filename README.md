@@ -1,20 +1,20 @@
 # Kamber
 
-Kamber is a static site generator, generally for blogs. Highly inspired from (Jekyll)[https://github.com/jekyll/jekyll].
+Kamber is a static site generator, generally for blogs. Highly inspired from [Jekyll](https://github.com/jekyll/jekyll).
 
 ## Features
 
 - Supports many post types:
-  - Markdown Posts
-  - GitHub Gist
-  - Tweet Embeds
-  - Video Embeds
-- Very fast, since it's based on (Kemal)[http://github.com/sdogruyol/kemal].
-- Easy to develop. Just add contents to `posts.yml` file.
+  - **Markdown** Posts
+  - GitHub **Gist**
+  - **Tweet** Embeds
+  - **Video** Embeds
+- **Very fast**, since it's based on [Kemal](http://github.com/sdogruyol/kemal).
+- Easy to develop. Just add contents to **`posts.yml`** file.
 
 ## Getting Started
 
-- (Fork)[https://github.com/jekyll/jekyll/fork] this repository.
+- [Fork](https://github.com/jekyll/jekyll/fork) this repository.
 - Edit `posts/posts.yml` file and add some content.
 - Compile & Run.
 
@@ -25,6 +25,11 @@ Kamber is a static site generator, generally for blogs. Highly inspired from (Je
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
 5. Create a new Pull Request
+
+## Roadmap
+
+- [] Add base post types and make it run
+- [] Themes as dependencies if possible
 
 ## Contributors
 
