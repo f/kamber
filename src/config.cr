@@ -1,0 +1,1 @@
+$BLOG_TITLE = "Hello"

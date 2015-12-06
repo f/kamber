@@ -1,0 +1,9 @@
+<article class="video">
+  <%= render "./_header.ecr" %>
+
+  <% if video.type == "youtube" %>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= video.id %>" frameborder="0" allowfullscreen></iframe>
+  <% elsif video.type == "vimeo" %>
+    <iframe width="560" height="315" src="https://player.vimeo.com/video/<%= video.id %>" frameborder="0" allowfullscreen></iframe>
+  <% end %>
+</article>

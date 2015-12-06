@@ -1,0 +1,22 @@
+- title: Example Post
+  file: example-post.md
+  abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          | sed do eiusmod tempor incididunt ut labore et dolore magna
+          | aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          | ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  disqus: false
+
+- title: Example Link
+  url: http://crystal-lang.org
+
+- title: Example Video
+  video: youtube/YE3GkCB3t_0
+
+- title: Example Video 2
+  video: vimeo/147842467
+
+- title: Example Tweet
+  tweet: @fkadev/673506301415194625
+
+- title: Example Gist
+  gist: f/c12af6b9e7d53bd9224d

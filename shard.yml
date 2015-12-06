@@ -1,0 +1,12 @@
+name: kamber
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+
+authors:
+  - Fatih Kadir Akın <fatihkadirakin@gmail.com>
+
+license: MIT

@@ -1,0 +1,14 @@
+<header>
+  <h2><%= post.title %></h2>
+  <div class="metadata">
+    <span class="date"><%= post.date %></span>
+    <% if post.writer %>
+      <span class="writer">by <%= post.writer %></span>
+    <% end %>
+  </div>
+  <% if post.abstract %>
+    <p class="abstract">
+      <%= post.abstract %>
+    </p>
+  <% end %>
+</header>
