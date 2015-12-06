@@ -1,5 +1,7 @@
 # Kamber
 
+![Kamber](./asset/kamber.png)
+
 Kamber is a static site generator, generally for blogs. Highly inspired from (Jekyll)[https://github.com/jekyll/jekyll].
 
 ## Features
