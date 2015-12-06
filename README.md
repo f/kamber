@@ -28,8 +28,8 @@ Kamber is a static site generator, generally for blogs. Highly inspired from [Je
 
 ## Roadmap
 
-- [] Add base post types and make it run
-- [] Themes as dependencies if possible
+- [ ] Add base post types and make it run
+- [ ] Themes as dependencies if possible
 
 ## Contributors
 
