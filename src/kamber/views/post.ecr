@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= $BLOG_TITLE %> | <%= post["title"] %></title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1><%= post["title"] %></h1>
+      </header>
+      <article class="contents">
+        <%= Markdown.to_html contents %>
+        <% if post["disqus"] == "true" %>
+          <div id="disqus_thread"></div>
+          <script>
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+
+          s.src = '//kamber-test.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+        <% end %>
+      </article>
+    </main>
+  </body>
+</html>

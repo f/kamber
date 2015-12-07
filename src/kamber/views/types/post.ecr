@@ -1,7 +1,17 @@
+<%
+  file = (post["file"] as String)
+    .gsub(/\.md$/, "")
+    .gsub(/^posts\//, "")
+%>
 <article class="post">
-  <%= render "./_header.ecr" %>
-
-  <div class="content">
-    <%= Markdown.to_html post.text %>
-  </div>
+  <header>
+    <h2>
+      <a href="/<%= file %>"><%= post["title"] %></a>
+    </h2>
+    <% if post["abstract"] %>
+      <p class="abstract">
+        <%= post["abstract"] %>
+      </p>
+    <% end %>
+  </header>
 </article>

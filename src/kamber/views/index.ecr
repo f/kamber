@@ -4,9 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= $BLOG_TITLE %><%= post_title ? " | #{post_title}" : "" %></title>
+    <title><%= $BLOG_TITLE %></title>
   </head>
   <body>
+    <% $posts.each do |post| %>
+      <% post = post as Hash %>
+      <% if post["type"] == "post" %>
+        <%= render "src/kamber/views/types/post.ecr" %>
+      <% elsif post["type"] == "tweet" %>
+        <%= render "src/kamber/views/types/tweet.ecr" %>
+      <% elsif post["type"] == "video" %>
+        <%= render "src/kamber/views/types/video.ecr" %>
+      <% elsif post["type"] == "gist" %>
+        <%= render "src/kamber/views/types/gist.ecr" %>
+      <% elsif post["type"] == "link" %>
+        <%= render "src/kamber/views/types/link.ecr" %>
+      <% end %>
+    <% end %>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
 </html>

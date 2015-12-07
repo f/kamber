@@ -1,9 +1,12 @@
 <article class="video">
-  <%= render "./_header.ecr" %>
+  <header>
+    <h2><%= post["title"] %></h2>
+  </header>
 
-  <% if video.type == "youtube" %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= video.id %>" frameborder="0" allowfullscreen></iframe>
-  <% elsif video.type == "vimeo" %>
-    <iframe width="560" height="315" src="https://player.vimeo.com/video/<%= video.id %>" frameborder="0" allowfullscreen></iframe>
+  <% video = (post["video"] as String).split("/") %>
+  <% if video[0] == "youtube" %>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= video[1] %>" frameborder="0" allowfullscreen></iframe>
+  <% elsif video[0] == "vimeo" %>
+    <iframe width="560" height="315" src="https://player.vimeo.com/video/<%= video[1] %>" frameborder="0" allowfullscreen></iframe>
   <% end %>
 </article>
