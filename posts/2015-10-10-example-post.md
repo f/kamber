@@ -9,8 +9,12 @@ look like:
   * that one
   * the other one
 
+| a | b | c |
+|---|---|---|
+| c | d | e |
+
 ```
-function () {
-  
+function hello() {
+  return true;
 }
 ```

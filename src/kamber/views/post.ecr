@@ -17,7 +17,7 @@
         </div>
       </header>
       <article class="contents">
-        <%= Markdown.to_html contents %>
+        <%= CommonMark.new(contents).to_html %>
         <% if post["disqus"] == "true" %>
           <div id="disqus_thread"></div>
           <script>
