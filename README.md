@@ -4,9 +4,7 @@
 
 Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
 
-![Screen 1](./asset/screen-1.png)
-
-![Screen 2](./asset/screen-2.png)
+> This is not a static blog generator, **it's a static blog server**. It _doesn't require_ any other HTTP servers. It uses Crystal and Kemal to generate HTML and also serve it.
 
 ## Features
 
@@ -95,6 +93,12 @@ type: gist
 title: Example Gist
 gist: f/c12af6b9e7d53bd9224d
 ```
+
+## Screenshots
+
+![Screen 1](./asset/screen-1.png)
+
+![Screen 2](./asset/screen-2.png)
 
 ## Contributing
 
