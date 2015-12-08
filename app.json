@@ -1,0 +1,16 @@
+{
+  "name": "Kamber Blog",
+  "description": "This app creates a blog server built on Crystal.",
+  "keywords": [
+    "blog",
+    "crystal"
+  ],
+  "repository": "https://github.com/f/kamber",
+  "logo": "https://raw.githubusercontent.com/f/kamber/master/asset/kamber.png",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/f/heroku-buildpack-kamber"
+    }
+  ]
+}
