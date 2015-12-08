@@ -13,25 +13,29 @@ def post_item(file)
   $posts.each do |_post|
     _post = _post as Hash
     if _post.has_key? "file"
-      puts file
       if (_post["file"] as String).ends_with?("#{file}.md" as String)
         post = _post
         contents = File.read(_post["file"] as String)
       end
     end
   end
-  render "src/kamber/views/post.ecr"
+  theme_item(post, contents)
 end
 
 module Kamber
 
   get "/" do
-    render "src/kamber/views/index.ecr"
+    theme_index
   end
 
   get "/style/:path" do |env|
     env.content_type = "text/css"
-    File.read "src/kamber/static/css/#{env.params["path"]}"
+    File.read theme_style(env.params["path"])
+  end
+
+  get "/script/:path" do |env|
+    env.content_type = "application/javascript"
+    File.read theme_script(env.params["path"])
   end
 
   get "/:post" do |env|

@@ -5,6 +5,9 @@ dependencies:
   kemal:
     github: sdogruyol/kemal
     branch: master
+  kamber-theme-default:
+    github: f/kamber-theme-default
+    branch: master
 
 authors:
   - Fatih Kadir Akın <fatihkadirakin@gmail.com>

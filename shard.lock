@@ -1,5 +1,9 @@
 version: 1.0
 shards:
+  kamber-theme-default:
+    github: f/kamber-theme-default
+    commit: 4597851dd89cce2166e14f67cf9f4e4a21f63b86
+
   kemal:
     github: sdogruyol/kemal
     commit: d825b2316a7ba78d5d09925174dd272d95eca259
