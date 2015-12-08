@@ -6,6 +6,12 @@ Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
 
 > This is not a static blog generator, **it's a static blog server**. It _doesn't require_ any other HTTP servers. It uses Crystal and Kemal to generate HTML and also serve it.
 
+## Quickstart
+
+Deploy on Heroku and start blogging!
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/f/kamber)
+
 ## Features
 
 - Supports many post types:
