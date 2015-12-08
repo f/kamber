@@ -2,7 +2,7 @@
 
 ![Kamber](./asset/kamber.png)
 
-Kamber is a static site generator, generally for blogs. Highly inspired from [Jekyll](https://github.com/jekyll/jekyll).
+Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
 
 ## Features
 
@@ -11,14 +11,86 @@ Kamber is a static site generator, generally for blogs. Highly inspired from [Je
   - GitHub **Gist**
   - **Tweet** Embeds
   - **Video** Embeds
+  - Disqus Comments
 - **Very fast**, since it's based on [Kemal](http://github.com/sdogruyol/kemal).
 - Easy to develop. Just add contents to **`posts.yml`** file.
 
 ## Getting Started
 
-- [Fork](https://github.com/jekyll/jekyll/fork) this repository.
+- [Fork](https://github.com/f/kamber/fork) this repository.
 - Edit `posts/posts.yml` file and add some content.
-- Compile & Run.
+- Edit `kamber/config.cr` and set your title.
+- `crystal build --release src/kamber.cr && ./kamber`
+
+## `config.cr`
+
+You can set your blog title from `config.cr`
+
+```crystal
+$BLOG_TITLE = "My Awesome Blog"
+$BLOG_DESC = "programming journal"
+$GOOGLE_ANALYTICS = "UA-XXXXX-X"
+```
+
+## Post Types
+
+`posts/posts.yml` has multiple YAML documents, each represents a blog item (aka post type).
+
+### Post (Markdown)
+
+```yml
+type: post
+title: Example Post
+abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+file: posts/example-post.md
+disqus: true
+```
+
+### Link
+
+```yml
+type: link
+title: Example Link
+url: "http://crystal-lang.org"
+```
+
+### Video
+
+Kamber supports **Youtube** and **Vimeo** videos. The main pattern of `video` is
+`[video provider]/[video id]`
+
+```yml
+type: video
+title: Example Video
+abstract:
+video: youtube/YE3GkCB3t_0
+```
+
+If you will use **Vimeo**, change `video` key to
+
+```yml
+video: vimeo/147842467
+```
+
+### Tweet
+
+This type embeds Tweets to the index. The pattern is `[username]/[tweet id]`
+
+```yml
+type: tweet
+title: Example Tweet
+tweet: fkadev/673506301415194625
+```
+
+### Gist
+
+This type embeds GitHub Gists to the index. The pattern is `[username]/[gist id]`
+
+```yml
+type: gist
+title: Example Gist
+gist: f/c12af6b9e7d53bd9224d
+```
 
 ## Contributing
 
@@ -30,7 +102,8 @@ Kamber is a static site generator, generally for blogs. Highly inspired from [Je
 
 ## Roadmap
 
-- [ ] Add base post types and make it run
+- [x] Add base post types and make it run
+- [ ] Add page support
 - [ ] Themes as dependencies if possible
 
 ## Contributors

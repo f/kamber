@@ -429,14 +429,20 @@ th {
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Helvetica Neue', serif;
   font-size: 16px;
   background-color: #FDFDFD;
+  line-height: 1.5;
 }
 
 main {
   max-width: 640px;
   margin: 0 auto;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1, h2 {
@@ -446,4 +452,63 @@ h1, h2 {
 
 h3, h4, h5, h6 {
   font-weight: 700;
+}
+
+pre {
+  background-color: #444;
+  padding: 10px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.post .abstract {
+  color: #bbb;
+  margin: 0;
+}
+
+.meta {
+  font-size: 15px;
+  color: #ccc;
+  margin-top: -13px;
+}
+
+header h1 {
+  color: #c0c0c0;
+  font-size: 20px !important;
+  border-bottom: 1px solid #F5F5F5;
+  padding-bottom: 10px;
+}
+
+article header h2 {
+  margin-bottom: 5px;
+}
+
+article header h2, article header h2 a {
+  font-size: 36px;
+  color: #444;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article header h2 a:hover {
+  background-image: linear-gradient(rgba(141, 179, 89, 0.25) 0%, #303030 100%);
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  background-position: 0 90%;
+  text-shadow: 3px 0 white, 2px 0 white, 1px 0 white, -1px 0 white, -2px 0 white, -3px 0 white;
+}
+
+.back {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.twitter-tweet {
+  margin: 0 auto;
 }

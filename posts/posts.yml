@@ -1,8 +1,18 @@
 type: post
 title: Example Post
 abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-file: posts/example-post.md
+file: posts/2015-10-10-example-post.md
 disqus: true
+date: 10 Jan 2014
+writer: Fatih Kadir Akın
+---
+type: post
+title: Categorized Post
+abstract: Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+file: posts/category/subcategory/another-post.md
+disqus: true
+date: 14 Jan 2014
+writer: Fatih Kadir Akın
 ---
 type: link
 title: Example Link
