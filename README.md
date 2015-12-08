@@ -19,12 +19,26 @@ Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
 
 ## Getting Started
 
-- [Fork](https://github.com/f/kamber/fork) this repository.
-- Edit `posts/posts.yml` file and add some content.
-- Edit `kamber/config.cr` and set your title.
-- `crystal build --release src/kamber.cr && ./kamber`
+### 1. Install Crystal and Kamber
+```
+brew install crystal-lang
+git clone https://github.com/f/kamber myblog
+cd myblog
+shards install
+```
 
-## `config.cr`
+### 2. Add Contents
+
+- Edit `kamber/config.cr` and set your title.
+- Edit `posts/posts.yml` file and add some content.
+
+### 3. Build and Run
+```
+crystal build --release src/kamber.cr
+./kamber
+```
+
+## Configuration
 
 You can set your blog title from `config.cr`
 
