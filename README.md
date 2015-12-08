@@ -26,6 +26,7 @@ Deploy on Heroku and start blogging **in a minute**!
   - Disqus Comments
 - **Very fast, ~15x faster than other static site generators/servers**, since it's based on [Kemal](http://github.com/sdogruyol/kemal). [See Benchmarks](https://github.com/sdogruyol/kemal#super-fast-3)
 - Easy to develop. Just add contents to **`posts.yml`** file.
+- Custom themes.
 
 ## Getting Started
 
@@ -54,6 +55,20 @@ To run in production, add `-e production` flag.
 ./kamber -e production
 ```
 
+## Themes
+
+Kamber has theme support.
+
+| Theme | GitHub |
+|-------|--------|
+| Kamber Default Theme | `kamber-theme-default` |
+
+[How to install themes](https://github.com/f/kamber-theme-default/tree/master#1-add-as-a-dependency)
+
+### Writing Custom Themes
+
+Kamber has a simple API to build your own themes. To start quickly, just [fork the `kamber-theme-default`](https://github.com/f/kamber-theme-default/fork) and start hacking it.
+
 ## Configuration
 
 You can set your blog title from `config.cr`
@@ -62,6 +77,9 @@ You can set your blog title from `config.cr`
 $BLOG_TITLE = "My Awesome Blog"
 $BLOG_DESC = "programming journal"
 $GOOGLE_ANALYTICS = "UA-XXXXX-X"
+
+# Activate Theme
+require "kamber-theme-default"
 ```
 
 ## Post Types
