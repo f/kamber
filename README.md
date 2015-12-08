@@ -4,6 +4,10 @@
 
 Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
 
+![Screen 1](./asset/screen-1.png)
+
+![Screen 2](./asset/screen-2.png)
+
 ## Features
 
 - Supports many post types:
