@@ -1,6 +1,6 @@
 require "./kamber/*"
 
-require "common_mark"
+require "markdown"
 require "yaml"
 require "kemal"
 require "./config"

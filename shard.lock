@@ -1,9 +1,5 @@
 version: 1.0
 shards:
-  common_mark:
-    github: ysbaddaden/crystal-cmark
-    commit: 75b333d7982560df786d3f439b1b72a0f24a30ab
-
   kemal:
     github: sdogruyol/kemal
     commit: d825b2316a7ba78d5d09925174dd272d95eca259

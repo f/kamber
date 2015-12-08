@@ -5,9 +5,6 @@ dependencies:
   kemal:
     github: sdogruyol/kemal
     branch: master
-  common_mark:
-    github: ysbaddaden/crystal-cmark
-    branch: master
 
 authors:
   - Fatih Kadir Akın <fatihkadirakin@gmail.com>
