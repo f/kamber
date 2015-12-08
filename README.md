@@ -70,6 +70,8 @@ Kamber has theme support.
 
 Kamber has a simple API to build your own themes. To start quickly, just [fork the `kamber-theme-default`](https://github.com/f/kamber-theme-default/fork) and start hacking it.
 
+**We are waiting for your themes!**
+
 ## Configuration
 
 You can set your blog title from `config.cr`
