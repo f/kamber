@@ -1,5 +1,7 @@
 # Kamber
 
+[![Join the chat at https://gitter.im/f/kamber](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/f/kamber?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![Kamber](./asset/kamber.png)
 
 Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
