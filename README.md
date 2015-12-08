@@ -12,6 +12,8 @@ Deploy on Heroku and start blogging **in a minute**!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/f/kamber)
 
+[View an Heroku example](https://kamber-test.herokuapp.com/)
+
 ## Features
 
 - Supports many post types:
