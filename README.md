@@ -1,10 +1,10 @@
 # Kamber
 
-[![Join the chat at https://gitter.im/f/kamber](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/f/kamber?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ![Kamber](./asset/kamber.png)
 
 Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
+
+[![Join the chat at https://gitter.im/f/kamber](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/f/kamber?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > This is not a static blog generator, **it's a static blog server**. It _doesn't require_ any other HTTP servers. It uses Crystal and Kemal to generate HTML and also serve it.
 
