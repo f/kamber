@@ -8,7 +8,7 @@ Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
 
 ## Quickstart
 
-Deploy on Heroku and start blogging!
+Deploy on Heroku and start blogging **in a minute**!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/f/kamber)
 
