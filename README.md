@@ -62,6 +62,7 @@ Kamber has theme support.
 | Theme | GitHub |
 |-------|--------|
 | Kamber Default Theme | `f/kamber-theme-default` |
+| Kamber Dark Theme | `f/kamber-theme-dark` |
 
 [How to install themes](https://github.com/f/kamber-theme-default/tree/master#1-add-as-a-dependency)
 
