@@ -14,7 +14,7 @@ Kamber is a blog server based on [Kemal](http://github.com/sdogruyol/kemal).
   - **Tweet** Embeds
   - **Video** Embeds
   - Disqus Comments
-- **Very fast**, since it's based on [Kemal](http://github.com/sdogruyol/kemal).
+- **Very fast, ~15x faster than other static site generators/servers**, since it's based on [Kemal](http://github.com/sdogruyol/kemal). [See Benchmarks](https://github.com/sdogruyol/kemal#super-fast-3)
 - Easy to develop. Just add contents to **`posts.yml`** file.
 
 ## Getting Started
