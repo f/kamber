@@ -38,6 +38,12 @@ crystal build --release src/kamber.cr
 ./kamber
 ```
 
+To run in production, add `-e production` flag.
+
+```
+./kamber -e production
+```
+
 ## Configuration
 
 You can set your blog title from `config.cr`
