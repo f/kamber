@@ -153,3 +153,5 @@ git push heroku master
 ## Contributors
 
 - [f](https://github.com/f) Fatih Kadir Akın - creator, maintainer
+
+> Kambersiz düğün olmaz.
