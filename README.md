@@ -114,6 +114,15 @@ title: Example Gist
 gist: f/c12af6b9e7d53bd9224d
 ```
 
+## Deploy to Heroku
+
+Kamber uses custom buildpack to run in Heroku.
+
+```
+heroku create myblog --buildpack https://github.com/f/heroku-buildpack-kamber
+git push heroku master
+```
+
 ## Screenshots
 
 ![Screen 1](./asset/screen-1.png)
