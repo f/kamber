@@ -104,7 +104,6 @@ gist: f/c12af6b9e7d53bd9224d
 
 - [x] Add base post types and make it run
 - [ ] Add page support
-- [ ] Themes as dependencies if possible
 
 ## Contributors
 
