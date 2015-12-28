@@ -6,5 +6,5 @@ shards:
 
   kemal:
     github: sdogruyol/kemal
-    commit: d825b2316a7ba78d5d09925174dd272d95eca259
+    commit: 64fac62804c5c232dbacad148b28a1d31bc4cbdc
 
