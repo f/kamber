@@ -2,9 +2,17 @@ version: 1.0
 shards:
   kamber-theme-default:
     github: f/kamber-theme-default
-    commit: 4597851dd89cce2166e14f67cf9f4e4a21f63b86
+    commit: f15d186f2d1d4470385322208ad6b88fa0f553e2
 
   kemal:
     github: sdogruyol/kemal
-    commit: d825b2316a7ba78d5d09925174dd272d95eca259
+    version: 0.11.1
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.3
+
+  radix:
+    github: luislavena/radix
+    version: 0.1.1
 
