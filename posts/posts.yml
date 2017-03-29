@@ -20,12 +20,12 @@ url: "http://crystal-lang.org"
 ---
 type: video
 title: Example Video
-abstract:
+abstract: Abstract Video
 video: youtube/YE3GkCB3t_0
 ---
 type: video
 title: Example Video 2
-abstract:
+abstract: Abstract Video 2
 video: vimeo/147842467
 ---
 type: tweet
