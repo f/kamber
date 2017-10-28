@@ -5,7 +5,7 @@ dependencies:
   kemal:
     github: sdogruyol/kemal
     version: 0.18.3
-  
+
   kamber-theme-default:
     github: f/kamber-theme-default
     branch: master
